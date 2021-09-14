@@ -1,0 +1,29 @@
+* {
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    overflow: hidden;
+    text-decoration: none;
+    text-decoration-color: cornsilk;
+}
+
+
+
+.top{
+    flex-direction:inline-flex;
+
+}
+
+.menu {
+    right: inherit;
+display:flex;
+align-items:center ;
+background-color: rgb(70, 112, 250);
+font-size: 20px;
+justify-content: space-evenly;
+}
+
+.logo {
+        height: 150px;
+        width: 150px;
+        display: flex;
+    }
+    
