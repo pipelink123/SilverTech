@@ -55,3 +55,8 @@ padding: 0.5rem 1rem;
     border-radius: 00.5rem;
     
 }
+
+.footer{
+    border-top-style: solid;
+    border-top-color: blue;
+}
