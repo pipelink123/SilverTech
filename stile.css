@@ -1,38 +1,57 @@
-* {
-    font-family:Georgia, 'Times New Roman', Times, serif ;
-    text-decoration: none;
+body{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: #333;
+    font-size: 1.2rem;
+    line-height: 1.6em;
 
-    
+}
+
+p{
+    margin-bottom: 1.6sem;
+}
+
+.container{
+    width: 85%;
+    max-width: 850%;
+    margin: 0 auto;
 }
 
 .header{
-    flex-direction: row;
-    align-items: stretch;
+ background-color: rgb(32, 78, 112);
+ color: white  ;
+ margin: 0;
+ padding: 2rem 0;
+ border-radius: 00.5rem;
 }
 
-.top{
-    flex-direction:row;
-
-}
-
-.menu {
-
-display:flex;
-align-items:center ;
-background-color: rgb(70, 112, 250);
-font-size: 20px;
-justify-content: space-evenly;
-flex-direction:row;
-border-top-style: solid;border-top-width: 0px;
-}
-
-.logo {
-        height: 150px;
-        width: 150px;
-        display: flex;
-    }
+.logo-nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.4rem;
+    word-spacing: 40px;
     
-    .container-body{
-        width: 100%;
-        background-color: rgb(160, 18, 18);
-        }
+}
+.logo{
+    border-radius: 1px;
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
+    display: inline-flex;
+}
+
+.navigation  li{
+margin: 0;
+padding: 0;
+list-style: none;
+display: inline-block; 
+padding: 0.5rem 1rem;
+}
+
+.navigation :hover{
+    background-color:teal ;
+    border-radius: 00.5rem;
+    
+}
