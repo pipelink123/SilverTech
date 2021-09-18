@@ -68,7 +68,12 @@ padding: 0.5rem 1rem;
     display: flex;
 }
 
-.list{
+.title{
+margin-left: -50px;
+margin-right: 10px;
+}
+
+.list{  
     border-right-style:dotted ;
     margin: 0.5rem;
     text-decoration: none;
@@ -86,4 +91,25 @@ padding: 0.5rem 1rem;
  flex-wrap: wrap;
  display: flex;
 
+}
+.menu{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.menu-1{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+
+.menu-2{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+
+.logo-1{
+margin-top: 80px;
+margin-left: 30px;
 }
