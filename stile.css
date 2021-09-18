@@ -59,4 +59,31 @@ padding: 0.5rem 1rem;
 .footer{
     border-top-style: solid;
     border-top-color: blue;
+    margin-left: 50px;
+    
+
+}
+
+.flex-container{
+    display: flex;
+}
+
+.list{
+    border-right-style:dotted ;
+    margin: 0.5rem;
+    text-decoration: none;
+    display: flexbox;
+    
+}
+.list-1{
+    display: inline-flex;
+    align-content: space-between;
+}
+
+
+.images{
+ position: relative;
+ flex-wrap: wrap;
+ display: flex;
+
 }
