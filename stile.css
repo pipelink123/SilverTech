@@ -78,7 +78,13 @@ margin-right: 10px;
     margin: 0.5rem;
     text-decoration: none;
     display: flexbox;
-    
+}
+.list li{
+    margin-top: 20px;
+}
+.list a{
+    text-decoration: none;
+    color: black;
 }
 .list-1{
     display: inline-flex;
@@ -96,18 +102,39 @@ margin-right: 10px;
     margin-left: 50px;
     margin-right: 50px;
 }
+.menu li{
+margin-top: 10px;
+}
+.menu a{
+text-decoration: none;
+color: black;
+}
 
 .menu-1{
     margin-left: 50px;
     margin-right: 50px;
 }
 
+.menu-1 li{
+    margin-top: 10px;
+}
+.menu-1 a{
+    text-decoration: none;
+    color: black;
+}
 
 .menu-2{
     margin-left: 50px;
     margin-right: 50px;
 }
 
+.menu-2 li{
+ margin-top: 10px;
+}
+.menu-2 a{
+    text-decoration: none;
+    color: black;
+}
 
 .logo-1{
 margin-top: 80px;
